@@ -16,5 +16,9 @@
       "command": "claude-vscode.sidebar.open",
       "message": "Membuka Claude Code"
     }
-  ]
+  ],
+  "workbench.startupEditor": "none",
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "chat.commandCenter.enabled": false,
+  "chat.disableAIFeatures": true
 }
