@@ -1,5 +1,7 @@
 {
   "recommendations": [
+    "anthropic.claude-code",
+    "gabrielgrinberg.auto-run-command",
     "bmewburn.vscode-intelephense-client",
     "cweijan.vscode-mysql-client2",
     "esbenp.prettier-vscode",

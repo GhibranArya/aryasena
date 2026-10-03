@@ -8,5 +8,13 @@
     "*.php": "php",
     "*.sql": "sql"
   },
-  "php.validate.enable": true
+  "php.validate.enable": true,
+  "claudeCode.preferredLocation": "panel",
+  "auto-run-command.rules": [
+    {
+      "condition": "always",
+      "command": "claude-vscode.sidebar.open",
+      "message": "Membuka Claude Code"
+    }
+  ]
 }
