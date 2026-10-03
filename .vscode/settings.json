@@ -9,16 +9,13 @@
     "*.sql": "sql"
   },
   "php.validate.enable": true,
-  "claudeCode.preferredLocation": "panel",
   "auto-run-command.rules": [
     {
       "condition": "always",
-      "command": "claude-vscode.sidebar.open",
-      "message": "Membuka Claude Code"
+      "command": "workbench.action.chat.open",
+      "message": "Membuka chat Agent"
     }
   ],
   "workbench.startupEditor": "none",
-  "workbench.welcomePage.walkthroughs.openOnInstall": false,
-  "chat.commandCenter.enabled": false,
-  "chat.disableAIFeatures": true
+  "workbench.welcomePage.walkthroughs.openOnInstall": false
 }
